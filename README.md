@@ -104,3 +104,7 @@ Contributions are **highly welcome**! Please read the rules below.
   ```markdown
   - [Tool Name](link) – Short, compelling one-sentence description.
   ```
+
+## ✨ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Awesome-EDA&type=date&legend=bottom-right)](https://www.star-history.com/#ishandutta2007/Awesome-EDA&type=date&legend=bottom-right)
