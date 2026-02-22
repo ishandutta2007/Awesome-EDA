@@ -130,6 +130,38 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 | Netgen | LVS (Layout vs Schematic) | — |
 
 ---
+
+## Experimental, Research & Specialized EDA Projects (From clin99 Awesome-EDA)
+
+| Tool | Primary Area | Description | Year Initialized |
+|---|---|---|---|
+| PyMTL | Hardware Modeling | Python-based hardware modeling and simulation framework used in academia | 2012 |
+| ILAng | SoC Verification | Instruction-Level Abstraction modeling and verification platform | 2016 |
+| Galois Parallel Framework | CAD Infrastructure | Parallel algorithm research framework used in EDA experimentation | 2010 |
+| HAMMER | Flow Orchestration | Modular ASIC flow generation and configuration framework | 2017 |
+| Lgraph | Synthesis Infrastructure | Graph-based synthesis and simulation infrastructure | 2018 |
+
+| MAGICAL | Analog Layout Automation | Machine-generated analog IC layout automation framework | 2019 |
+| AMPSE | Analog Design Automation | Analog parameter search and optimization engine | 2019 |
+| Analog Known Good Designs | Analog Reference Designs | Verified analog circuit design repository | 2019 |
+| Circuit IP Sanitizer | Analog Verification | IP validation and sanitization tooling | 2019 |
+| AMC (Async Memory Compiler) | Memory Design | Asynchronous memory compiler research project | 2019 |
+| PVT Sensors | Analog Test Infrastructure | Open PVT sensor development framework | 2019 |
+| UW IDEA Analog TestCases | Analog Benchmarks | Analog testing and validation circuits | 2019 |
+
+| OpenPiton | Research SoC Platform | Manycore open research processor platform | 2018 |
+| PRGA | FPGA Workflow | Research FPGA architecture exploration workflow | 2018 |
+| OpenFPGA (FPGA-SPICE) | FPGA Modeling | FPGA architecture modeling and SPICE co-simulation | 2018 |
+
+| EPFL Logic Benchmark Suite | Benchmarks | Widely used combinational logic synthesis benchmarks | 2018 |
+| Parser-SPEF | Physical Design Utility | SPEF parasitic extraction file parser | 2018 |
+| UW BSG Pipecleaner Suite | Verification Benchmarks | Microarchitecture testing framework | 2019 |
+
+| Graywolf | Placement | Academic ASIC placement research tool | 2014 |
+| BoxRouter | Routing | Global routing academic prototype | 2016 |
+
+---
+
 ## Community & Learning Resources
 
 - [EDAboard](https://www.edaboard.com) – largest international EDA discussion forum
