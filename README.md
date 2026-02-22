@@ -117,7 +117,7 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 |---|---|---|
 | SkyWater 130nm PDK | free manufacturable process design kit | — |
 | Open_PDKs | open-source process design kits | — |
-| CVC | circuit verifier | — |
+| CVC | circuit verifier | 2009 |
 | Netgen | LVS (Layout vs Schematic) | — |
 
 ---
