@@ -70,6 +70,7 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 | Verilator | fastest Verilog/SystemVerilog simulator (used in industry) | — |
 | Icarus Verilog | lightweight Verilog simulator & synthesizer | — |
 | GHDL | VHDL simulator with excellent IEEE support | — |
+| sv2v | SystemVerilog to Verilog translator widely used in FPGA flows | 2019 |
 
 ---
 
@@ -78,6 +79,7 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 | Tool | Description | Year Initialized |
 |---|---|---|
 | Yosys | extensible Verilog RTL synthesis suite | 2012 |
+| Berkeley-ABC | industrial-strength logic synthesis and verification system | 2005 |
 | nextpnr | FPGA place-and-route (Lattice, ECP5, iCE40, etc.) | — |
 | VTR (Verilog-to-Routing) | academic FPGA CAD flow | 2012 |
 
@@ -90,6 +92,11 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 | OpenROAD | autonomous RTL-to-GDSII flow | — |
 | OpenLane | complete automated ASIC flow (used for real tape-outs) | — |
 | iEDA | full netlist-to-GDS infrastructure | — |
+| OpenSTA | static timing analysis engine used in modern open ASIC flows | 2018 |
+| RePlAce | analytic global placement engine | 2018 |
+| TritonCTS | clock tree synthesis engine | 2018 |
+| OpenDP | detailed placement optimizer | 2018 |
+| OpenTimer | high-performance timing analysis framework | 2015 |
 
 ---
 
@@ -99,6 +106,7 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 |---|---|---|
 | Magic VLSI | venerable interactive layout editor | 2017 |
 | KLayout | powerful GDS/OASIS viewer, editor, and DRC tool | 2017 |
+| Qrouter | grid-based autorouter for IC layouts | 2013 |
 
 ---
 
@@ -108,6 +116,7 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 |---|---|---|
 | ngspice | SPICE circuit simulator (industry-grade open source) | 1999 |
 | Xschem | schematic capture for analog/mixed-signal | — |
+| ALIGN | automated analog layout synthesis framework | 2018 |
 
 ---
 
