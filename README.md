@@ -144,3 +144,7 @@ Contributions are **highly welcome**! Please read the rules below.
 ## ✨ Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Awesome-EDA&type=date&legend=bottom-right)](https://www.star-history.com/#ishandutta2007/Awesome-EDA&type=date&legend=bottom-right)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Awesome-EDA&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-EDA&type=date&legend=top-left)
