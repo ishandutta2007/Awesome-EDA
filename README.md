@@ -4,8 +4,6 @@
 
 This list focuses on **actively maintained, open-source, production-ready, or education-focused** EDA tools for PCB, FPGA, ASIC, and VLSI design — excellent for learning, hobby projects, or real silicon tape-outs in 2026.
 
-**See also**: [clin99/awesome-eda](https://github.com/clin99/awesome-eda) (the comprehensive open-source EDA project catalog).
-
 ---
 ## Contents
 
@@ -131,7 +129,7 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 
 ---
 
-## Experimental, Research & Specialized EDA Projects (From clin99 Awesome-EDA)
+## Experimental, Research & Specialized EDA Projects (From clin99 Awesome-EDA **See also**: [clin99/awesome-eda](https://github.com/clin99/awesome-eda))
 
 | Tool | Primary Area | Description | Year Initialized |
 |---|---|---|---|
