@@ -138,7 +138,6 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 | Galois Parallel Framework | CAD Infrastructure | Parallel algorithm research framework used in EDA experimentation | 2010 |
 | HAMMER | Flow Orchestration | Modular ASIC flow generation and configuration framework | 2017 |
 | Lgraph | Synthesis Infrastructure | Graph-based synthesis and simulation infrastructure | 2018 |
-
 | MAGICAL | Analog Layout Automation | Machine-generated analog IC layout automation framework | 2019 |
 | AMPSE | Analog Design Automation | Analog parameter search and optimization engine | 2019 |
 | Analog Known Good Designs | Analog Reference Designs | Verified analog circuit design repository | 2019 |
