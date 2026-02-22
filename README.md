@@ -55,9 +55,9 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 
 | Tool | Description | Year Initialized |
 |---|---|---|
-| KiCad | professional-grade schematic capture + PCB layout (industry standard open alternative) | — |
-| LibrePCB | modern, intuitive EDA suite with excellent library management | — |
-| eSim | full-stack circuit design, simulation, and PCB (KiCad + ngspice + Verilator) | — |
+| [KiCad](https://www.kicad.org) | professional-grade schematic capture + PCB layout (industry standard open alternative) | — |
+| [LibrePCB](https://librepcb.org) | modern, intuitive EDA suite with excellent library management | — |
+| [eSim](https://github.com/FOSSEE/eSim) | full-stack circuit design, simulation, and PCB (KiCad + ngspice + Verilator) | — |
 
 ---
 
@@ -65,10 +65,10 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 
 | Tool | Description | Year Initialized |
 |---|---|---|
-| Verilator | fastest Verilog/SystemVerilog simulator (used in industry) | — |
-| Icarus Verilog | lightweight Verilog simulator & synthesizer | — |
-| GHDL | VHDL simulator with excellent IEEE support | — |
-| sv2v | SystemVerilog to Verilog translator widely used in FPGA flows | 2019 |
+| [Verilator](https://github.com/verilator/verilator) | fastest Verilog/SystemVerilog simulator (used in industry) | — |
+| [Icarus Verilog](https://github.com/steveicarus/iverilog) | lightweight Verilog simulator & synthesizer | — |
+| [GHDL](https://github.com/ghdl/ghdl) | VHDL simulator with excellent IEEE support | — |
+| [sv2v](https://github.com/zachjs/sv2v) | SystemVerilog to Verilog translator widely used in FPGA flows | 2019 |
 
 ---
 
@@ -76,10 +76,10 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 
 | Tool | Description | Year Initialized |
 |---|---|---|
-| Yosys | extensible Verilog RTL synthesis suite | 2012 |
-| Berkeley-ABC | industrial-strength logic synthesis and verification system | 2005 |
-| nextpnr | FPGA place-and-route (Lattice, ECP5, iCE40, etc.) | — |
-| VTR (Verilog-to-Routing) | academic FPGA CAD flow | 2012 |
+| [Yosys](https://github.com/YosysHQ/yosys) | extensible Verilog RTL synthesis suite | 2012 |
+| [Berkeley-ABC](https://github.com/berkeley-abc/abc) | industrial-strength logic synthesis and verification system | 2005 |
+| [nextpnr](https://github.com/YosysHQ/nextpnr) | FPGA place-and-route (Lattice, ECP5, iCE40, etc.) | — |
+| [VTR (Verilog-to-Routing)](https://github.com/verilog-to-routing/vtr-verilog-to-routing) | academic FPGA CAD flow | 2012 |
 
 ---
 
@@ -87,14 +87,14 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 
 | Tool | Description | Year Initialized |
 |---|---|---|
-| OpenROAD | autonomous RTL-to-GDSII flow | — |
-| OpenLane | complete automated ASIC flow (used for real tape-outs) | — |
-| iEDA | full netlist-to-GDS infrastructure | — |
-| OpenSTA | static timing analysis engine used in modern open ASIC flows | 2018 |
-| RePlAce | analytic global placement engine | 2018 |
-| TritonCTS | clock tree synthesis engine | 2018 |
-| OpenDP | detailed placement optimizer | 2018 |
-| OpenTimer | high-performance timing analysis framework | 2015 |
+| [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) | autonomous RTL-to-GDSII flow | — |
+| [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) | complete automated ASIC flow (used for real tape-outs) | — |
+| [iEDA](https://github.com/OSCC-Project/iEDA) | full netlist-to-GDS infrastructure | — |
+| [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA) | static timing analysis engine used in modern open ASIC flows | 2018 |
+| [RePlAce](https://github.com/The-OpenROAD-Project/RePlAce) | analytic global placement engine | 2018 |
+| [TritonCTS](https://github.com/The-OpenROAD-Project/TritonCTS) | clock tree synthesis engine | 2018 |
+| [OpenDP](https://github.com/sanggido/OpenDP) | detailed placement optimizer | 2018 |
+| [OpenTimer](https://github.com/OpenTimer/OpenTimer) | high-performance timing analysis framework | 2015 |
 
 ---
 
@@ -102,9 +102,9 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 
 | Tool | Description | Year Initialized |
 |---|---|---|
-| Magic VLSI | venerable interactive layout editor | 2017 |
-| KLayout | powerful GDS/OASIS viewer, editor, and DRC tool | 2017 |
-| Qrouter | grid-based autorouter for IC layouts | 2013 |
+| [Magic VLSI](https://github.com/libresilicon/magic-8.22017) | venerable interactive layout editor | 2017 |
+| [KLayout](https://github.com/KLayout/klayout) | powerful GDS/OASIS viewer, editor, and DRC tool | 2017 |
+| [Qrouter](http://opencircuitdesign.com/qrouter/) | grid-based autorouter for IC layouts | 2013 |
 
 ---
 
@@ -112,9 +112,9 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 
 | Tool | Description | Year Initialized |
 |---|---|---|
-| ngspice | SPICE circuit simulator (industry-grade open source) | 1999 |
-| Xschem | schematic capture for analog/mixed-signal | — |
-| ALIGN | automated analog layout synthesis framework | 2018 |
+| [ngspice](https://github.com/imr/ngspice) | SPICE circuit simulator (industry-grade open source) | 1999 |
+| [Xschem](https://github.com/stefanschippers/xschem) | schematic capture for analog/mixed-signal | — |
+| [ALIGN](https://github.com/ALIGN-analoglayout/ALIGN-public) | automated analog layout synthesis framework | 2018 |
 
 ---
 
@@ -122,40 +122,37 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 
 | Tool | Description | Year Initialized |
 |---|---|---|
-| SkyWater 130nm PDK | free manufacturable process design kit | — |
-| Open_PDKs | open-source process design kits | — |
-| CVC | circuit verifier | 2009 |
-| Netgen | LVS (Layout vs Schematic) | — |
+| [SkyWater 130nm PDK](https://github.com/google/skywater-pdk) | free manufacturable process design kit | — |
+| [Open_PDKs](https://github.com/RTimothyEdwards/open_pdks) | open-source process design kits | — |
+| [CVC](https://github.com/d-michail/cvc) | circuit verifier | 2009 |
+| [Netgen](https://github.com/RTimothyEdwards/netgen) | LVS (Layout vs Schematic) | — |
 
 ---
 
-## Experimental, Research & Specialized EDA Projects (From clin99 Awesome-EDA **See also**: [clin99/awesome-eda](https://github.com/clin99/awesome-eda))
+## Experimental, Research & Specialized EDA Projects (From clin99 Awesome-EDA **See also**: https://github.com/clin99/awesome-eda)
 
 | Tool | Primary Area | Description | Year Initialized |
 |---|---|---|---|
-| PyMTL | Hardware Modeling | Python-based hardware modeling and simulation framework used in academia | 2012 |
-| ILAng | SoC Verification | Instruction-Level Abstraction modeling and verification platform | 2016 |
-| Galois Parallel Framework | CAD Infrastructure | Parallel algorithm research framework used in EDA experimentation | 2010 |
-| HAMMER | Flow Orchestration | Modular ASIC flow generation and configuration framework | 2017 |
-| Lgraph | Synthesis Infrastructure | Graph-based synthesis and simulation infrastructure | 2018 |
-| MAGICAL | Analog Layout Automation | Machine-generated analog IC layout automation framework | 2019 |
-| AMPSE | Analog Design Automation | Analog parameter search and optimization engine | 2019 |
-| Analog Known Good Designs | Analog Reference Designs | Verified analog circuit design repository | 2019 |
-| Circuit IP Sanitizer | Analog Verification | IP validation and sanitization tooling | 2019 |
-| AMC (Async Memory Compiler) | Memory Design | Asynchronous memory compiler research project | 2019 |
-| PVT Sensors | Analog Test Infrastructure | Open PVT sensor development framework | 2019 |
-| UW IDEA Analog TestCases | Analog Benchmarks | Analog testing and validation circuits | 2019 |
-
-| OpenPiton | Research SoC Platform | Manycore open research processor platform | 2018 |
-| PRGA | FPGA Workflow | Research FPGA architecture exploration workflow | 2018 |
-| OpenFPGA (FPGA-SPICE) | FPGA Modeling | FPGA architecture modeling and SPICE co-simulation | 2018 |
-
-| EPFL Logic Benchmark Suite | Benchmarks | Widely used combinational logic synthesis benchmarks | 2018 |
-| Parser-SPEF | Physical Design Utility | SPEF parasitic extraction file parser | 2018 |
-| UW BSG Pipecleaner Suite | Verification Benchmarks | Microarchitecture testing framework | 2019 |
-
-| Graywolf | Placement | Academic ASIC placement research tool | 2014 |
-| BoxRouter | Routing | Global routing academic prototype | 2016 |
+| [PyMTL](https://github.com/cornell-brg/pymtl) | Hardware Modeling | Python-based hardware modeling and simulation framework used in academia | 2012 |
+| [ILAng](https://github.com/Bo-Yuan-Huang/ILAng) | SoC Verification | Instruction-Level Abstraction modeling and verification platform | 2016 |
+| [Galois Parallel Framework](https://github.com/IntelligentSoftwareSystems/Galois) | CAD Infrastructure | Parallel algorithm research framework used in EDA experimentation | 2010 |
+| [HAMMER](https://github.com/ucb-bar/hammer) | Flow Orchestration | Modular ASIC flow generation and configuration framework | 2017 |
+| [Lgraph](https://github.com/masc-ucsc/lgraph) | Synthesis Infrastructure | Graph-based synthesis and simulation infrastructure | 2018 |
+| [MAGICAL](https://github.com/magical-eda/MAGICAL) | Analog Layout Automation | Machine-generated analog IC layout automation framework | 2019 |
+| [AMPSE](https://github.com/USCPOSH/AMPSE) | Analog Design Automation | Analog parameter search and optimization engine | 2019 |
+| [Analog Known Good Designs](https://github.com/USCPOSH/AMS_KGD) | Analog Reference Designs | Verified analog circuit design repository | 2019 |
+| [Circuit IP Sanitizer](https://github.com/USCPOSH/Sanitizer) | Analog Verification | IP validation and sanitization tooling | 2019 |
+| [AMC (Async Memory Compiler)](https://github.com/asyncvlsi/AMC) | Memory Design | Asynchronous memory compiler research project | 2019 |
+| [PVT Sensors](https://github.com/scale-lab/PVTsensors) | Analog Test Infrastructure | Open PVT sensor development framework | 2019 |
+| [UW IDEA Analog TestCases](https://github.com/uwidea/UW-IDEA_AnalogTestCases) | Analog Benchmarks | Analog testing and validation circuits | 2019 |
+| [OpenPiton](https://github.com/PrincetonUniversity/openpiton) | Research SoC Platform | Manycore open research processor platform | 2018 |
+| [PRGA](https://github.com/PrincetonUniversity/prga) | FPGA Workflow | Research FPGA architecture exploration workflow | 2018 |
+| [OpenFPGA (FPGA-SPICE)](https://github.com/LNIS-Projects/OpenFPGA) | FPGA Modeling | FPGA architecture modeling and SPICE co-simulation | 2018 |
+| [EPFL Logic Benchmark Suite](https://github.com/lsils/benchmarks) | Benchmarks | Widely used combinational logic synthesis benchmarks | 2018 |
+| [Parser-SPEF](https://github.com/OpenTimer/Parser-SPEF) | Physical Design Utility | SPEF parasitic extraction file parser | 2018 |
+| [UW BSG Pipecleaner Suite](https://github.com/bespoke-silicon-group/bsg_pipeclean_suite) | Verification Benchmarks | Microarchitecture testing framework | 2019 |
+| [Graywolf](https://github.com/rubund/graywolf2014) | Placement | Academic ASIC placement research tool | 2014 |
+| [BoxRouter](https://github.com/krzhu/BoxRouter) | Routing | Global routing academic prototype | 2016 |
 
 ---
 
