@@ -6,6 +6,7 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 
 **See also**: [clin99/awesome-eda](https://github.com/clin99/awesome-eda) (the comprehensive open-source EDA project catalog).
 
+---
 ## Contents
 
 - [Getting Started](#getting-started)
@@ -50,41 +51,76 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 
 ## Open-Source EDA Tools & Flows
 
+---
+
 ### PCB & Schematic Design
-- [KiCad](https://www.kicad.org) – professional-grade schematic capture + PCB layout (industry standard open alternative)
-- [LibrePCB](https://librepcb.org) – modern, intuitive EDA suite with excellent library management
-- [eSim](https://esim.fossee.in) – full-stack circuit design, simulation, and PCB (KiCad + ngspice + Verilator)
+
+| Tool | Description | Year Initialized |
+|---|---|---|
+| KiCad | professional-grade schematic capture + PCB layout (industry standard open alternative) | — |
+| LibrePCB | modern, intuitive EDA suite with excellent library management | — |
+| eSim | full-stack circuit design, simulation, and PCB (KiCad + ngspice + Verilator) | — |
+
+---
 
 ### HDL Simulation & Verification
-- [Verilator](https://github.com/verilator/verilator) – fastest Verilog/SystemVerilog simulator (used in industry)
-- [Icarus Verilog](https://github.com/steveicarus/iverilog) – lightweight Verilog simulator & synthesizer
-- [GHDL](https://github.com/ghdl/ghdl) – VHDL simulator with excellent IEEE support
+
+| Tool | Description | Year Initialized |
+|---|---|---|
+| Verilator | fastest Verilog/SystemVerilog simulator (used in industry) | — |
+| Icarus Verilog | lightweight Verilog simulator & synthesizer | — |
+| GHDL | VHDL simulator with excellent IEEE support | — |
+
+---
 
 ### Logic Synthesis & FPGA Tools
-- [Yosys](https://github.com/YosysHQ/yosys) – extensible Verilog RTL synthesis suite
-- [nextpnr](https://github.com/YosysHQ/nextpnr) – FPGA place-and-route (Lattice, ECP5, iCE40, etc.)
-- [VTR (Verilog-to-Routing)](https://github.com/verilog-to-routing/vtr-verilog-to-routing) – academic FPGA CAD flow
+
+| Tool | Description | Year Initialized |
+|---|---|---|
+| Yosys | extensible Verilog RTL synthesis suite | 2012 |
+| nextpnr | FPGA place-and-route (Lattice, ECP5, iCE40, etc.) | — |
+| VTR (Verilog-to-Routing) | academic FPGA CAD flow | 2012 |
+
+---
 
 ### ASIC & Physical Design Flows
-- [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) – autonomous RTL-to-GDSII flow
-- [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) – complete automated ASIC flow (used for real tape-outs)
-- [iEDA](https://github.com/OSCC-Project/iEDA) – full netlist-to-GDS infrastructure (China open-source initiative)
+
+| Tool | Description | Year Initialized |
+|---|---|---|
+| OpenROAD | autonomous RTL-to-GDSII flow | — |
+| OpenLane | complete automated ASIC flow (used for real tape-outs) | — |
+| iEDA | full netlist-to-GDS infrastructure | — |
+
+---
 
 ### Layout Editors & Viewers
-- [Magic VLSI](https://github.com/magic-vlsi/magic) – venerable interactive layout editor
-- [KLayout](https://www.klayout.de) – powerful GDS/OASIS viewer, editor, and DRC tool
+
+| Tool | Description | Year Initialized |
+|---|---|---|
+| Magic VLSI | venerable interactive layout editor | 2017 |
+| KLayout | powerful GDS/OASIS viewer, editor, and DRC tool | 2017 |
+
+---
 
 ### Analog & Mixed-Signal Tools
-- [ngspice](https://github.com/imr/ngspice) – SPICE circuit simulator (industry-grade open source)
-- [Xschem](https://github.com/stefanv/Xschem) – schematic capture for analog/mixed-signal
+
+| Tool | Description | Year Initialized |
+|---|---|---|
+| ngspice | SPICE circuit simulator (industry-grade open source) | 1999 |
+| Xschem | schematic capture for analog/mixed-signal | — |
+
+---
 
 ## Tools & Utilities
 
-- [SkyWater 130nm PDK](https://github.com/google/skywater-pdk) – free manufacturable process design kit
-- [Open_PDKs](https://github.com/RTimothyEdwards/open_pdks) – open-source process design kits
-- [CVC](https://github.com/d-michail/cvc) – circuit verifier
-- [Netgen](https://github.com/RTimothyEdwards/netgen) – LVS (Layout vs Schematic)
+| Tool | Description | Year Initialized |
+|---|---|---|
+| SkyWater 130nm PDK | free manufacturable process design kit | — |
+| Open_PDKs | open-source process design kits | — |
+| CVC | circuit verifier | — |
+| Netgen | LVS (Layout vs Schematic) | — |
 
+---
 ## Community & Learning Resources
 
 - [EDAboard](https://www.edaboard.com) – largest international EDA discussion forum
