@@ -7,6 +7,9 @@
   <a href="https://github.com/ishandutta2007/Awesome-EDA/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-EDA?style=for-the-badge&color=0072ff" alt="Forks"></a>
   <a href="https://github.com/ishandutta2007/Awesome-EDA/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-EDA?style=for-the-badge&color=4facfe" alt="License"></a>
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge&color=00ff88" alt="PRs Welcome">
+  <a href="https://github.com/ishandutta2007">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow&style=for-the-badge&logo=github&logoColor=white" alt="Github"/>
+  </a>
 </p>
 
 # Awesome EDA 🛠️ — Open-Source & SaaS Chip Design Resources
