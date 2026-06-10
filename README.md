@@ -176,4 +176,4 @@ Contributions are **highly welcome**! Ensure tools are **actively maintained** a
 
 ## ✨ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ishandukka2007/Awesome-EDA&type=date&legend=top-left)](https://www.star-history.com/#ishandukka2007/Awesome-EDA&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Awesome-EDA&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-EDA&type=date&legend=top-left)

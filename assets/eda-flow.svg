@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100">
-  <rect width="100%" height="100%" fill="#1a1a1a" />
-  <text x="20" y="40" fill="#00c6ff" font-family="monospace" font-size="14">Step 1: RTL Design [Verilog]</text>
-  <path d="M200 40 L240 40" stroke="white" stroke-width="2" marker-end="url(#arrow)" />
-  <text x="250" y="40" fill="#00ff88" font-family="monospace" font-size="14">Step 2: GDSII</text>
   <defs>
     <marker id="arrow" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto" markerUnits="strokeWidth">
       <path d="M0,0 L0,6 L9,3 z" fill="white" />
     </marker>
   </defs>
-  <text x="20" y="75" fill="white" font-family="Arial" font-size="10" opacity="0.7">Automated Open-Source Silicon Flow</text>
+  <rect width="400" height="100" fill="#1a1a1a" />
+  <text x="20" y="45" fill="#00c6ff" font-family="Courier, monospace" font-size="14">Step 1: RTL [Verilog]</text>
+  <path d="M180,40 L230,40" stroke="white" stroke-width="2" marker-end="url(#arrow)" fill="none" />
+  <text x="240" y="45" fill="#00ff88" font-family="Courier, monospace" font-size="14">Step 2: GDSII</text>
+  <text x="20" y="80" fill="white" fill-opacity="0.7" font-family="Arial, Helvetica, sans-serif" font-size="11">Automated Open-Source Silicon Design Flow</text>
 </svg>
