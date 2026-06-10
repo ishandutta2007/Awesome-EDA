@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Awesome EDA Banner" width="800">
+  <img src="./assets/banner.svg" alt="Awesome EDA Banner" width="800">
 </p>
 
 <p align="center">
@@ -20,28 +20,28 @@ This repository serves as a comprehensive index for **ASIC, FPGA, and PCB design
 ## 🗺️ Visual EDA Flow Index
 
 <p align="center">
-  <img src="assets/eda-flow.svg" alt="EDA Design Flow" width="400">
+  <img src="./assets/eda-flow.svg" alt="EDA Design Flow" width="400">
 </p>
 
 ---
 
 ## 📑 Contents
 
-- [🚀 Getting Started](#-getting-started)
-- [📚 Books](#-books)
-- [🎓 Hands-on Tutorials & Example Flows](#-hands-on-tutorials--example-flows)
-- [🛠️ Open-Source EDA Tools & Flows](#️-open-source-eda-tools--flows)
-  - [📟 PCB & Schematic Design](#-pcb--schematic-design)
-  - [📡 HDL Simulation & Verification](#-hdl-simulation--verification)
-  - [💎 Logic Synthesis & FPGA Tools](#-logic-synthesis--fpga-tools)
-  - [🏗️ ASIC & Physical Design Flows](#️-asic--physical-design-flows)
-  - [🔍 Layout Editors & Viewers](#-layout-editors--viewers)
-  - [⚡ Analog & Mixed-Signal Tools](#-analog--mixed-signal-tools)
-- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
-- [🧰 Tools & Utilities](#-tools--utilities)
-- [🤝 Community & Learning Resources](#-community--learning-resources)
-- [📝 Contributing](#-contributing)
-- [⚖️ License](#️-license)
+- [🚀 Getting Started](#getting-started)
+- [📚 Books](#books)
+- [🎓 Hands-on Tutorials & Example Flows](#hands-on-tutorials--example-flows)
+- [🛠️ Open-Source EDA Tools & Flows](#open-source-eda-tools--flows)
+  - [📟 PCB & Schematic Design](#pcb--schematic-design)
+  - [📡 HDL Simulation & Verification](#hdl-simulation--verification)
+  - [💎 Logic Synthesis & FPGA Tools](#logic-synthesis--fpga-tools)
+  - [🏗️ ASIC & Physical Design Flows](#asic--physical-design-flows)
+  - [🔍 Layout Editors & Viewers](#layout-editors--viewers)
+  - [⚡ Analog & Mixed-Signal Tools](#analog--mixed-signal-tools)
+- [☁️ SaaS & Hosted Platforms](#saas--hosted-platforms)
+- [🧰 Tools & Utilities](#tools--utilities)
+- [🤝 Community & Learning Resources](#community--learning-resources)
+- [📝 Contributing](#contributing)
+- [⚖️ License](#license)
 
 ## 🚀 Getting Started
 
@@ -118,7 +118,7 @@ This repository serves as a comprehensive index for **ASIC, FPGA, and PCB design
 | Tool | Description | Year | Commercial Alternative | Key Deficiency |
 |---|---|---|---|---|
 | [Magic VLSI](https://github.com/libresilicon/magic-8.22017) | 🏛️ Venerable interactive layout editor. | 2017 | Cadence Virtuoso | Lacks Schematic Driven Layout (SDL) and FinFET extraction. |
-| [KLayout](https://github.com/KLayout/klayout) |  telescope Powerful GDS/OASIS viewer and editor. | 2017 | Cadence Virtuoso | Lacks integrated PDK management and real-time SDL probing. |
+| [KLayout](https://github.com/KLayout/klayout) | 🔭 Powerful GDS/OASIS viewer and editor. | 2017 | Cadence Virtuoso | Lacks integrated PDK management and real-time SDL probing. |
 
 ---
 
@@ -176,4 +176,4 @@ Contributions are **highly welcome**! Ensure tools are **actively maintained** a
 
 ## ✨ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Awesome-EDA&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-EDA&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=ishandukka2007/Awesome-EDA&type=date&legend=top-left)](https://www.star-history.com/#ishandukka2007/Awesome-EDA&type=date&legend=top-left)
