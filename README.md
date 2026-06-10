@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ishandukka2007/Awesome-EDA/stargazers"><img src="https://img.shields.io/github/stars/ishandukka2007/Awesome-EDA?style=for-the-badge&color=00c6ff" alt="Stars"></a>
-  <a href="https://github.com/ishandukka2007/Awesome-EDA/network/members"><img src="https://img.shields.io/github/forks/ishandukka2007/Awesome-EDA?style=for-the-badge&color=0072ff" alt="Forks"></a>
-  <a href="https://github.com/ishandukka2007/Awesome-EDA/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandukka2007/Awesome-EDA?style=for-the-badge&color=4facfe" alt="License"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-EDA/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-EDA?style=for-the-badge&color=00c6ff" alt="Stars"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-EDA/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-EDA?style=for-the-badge&color=0072ff" alt="Forks"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-EDA/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-EDA?style=for-the-badge&color=4facfe" alt="License"></a>
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge&color=00ff88" alt="PRs Welcome">
 </p>
 
@@ -176,4 +176,4 @@ Contributions are **highly welcome**! Ensure tools are **actively maintained** a
 
 ## ✨ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ishandukka2007/Awesome-EDA&type=date&legend=top-left)](https://www.star-history.com/#ishandukka2007/Awesome-EDA&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Awesome-EDA&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-EDA&type=date&legend=top-left)
