@@ -1,201 +1,179 @@
-# Awesome EDA 🛠️
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome EDA Banner" width="800">
+</p>
 
-> A curated list of **high-quality** Electronic Design Automation (EDA) tools, projects, tutorials, books, and resources.
+<p align="center">
+  <a href="https://github.com/ishandukka2007/Awesome-EDA/stargazers"><img src="https://img.shields.io/github/stars/ishandukka2007/Awesome-EDA?style=for-the-badge&color=00c6ff" alt="Stars"></a>
+  <a href="https://github.com/ishandukka2007/Awesome-EDA/network/members"><img src="https://img.shields.io/github/forks/ishandukka2007/Awesome-EDA?style=for-the-badge&color=0072ff" alt="Forks"></a>
+  <a href="https://github.com/ishandukka2007/Awesome-EDA/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandukka2007/Awesome-EDA?style=for-the-badge&color=4facfe" alt="License"></a>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge&color=00ff88" alt="PRs Welcome">
+</p>
 
-This list focuses on **actively maintained, open-source, production-ready, or education-focused** EDA tools for PCB, FPGA, ASIC, and VLSI design — excellent for learning, hobby projects, or real silicon tape-outs in 2026.
+# Awesome EDA 🛠️ — Open-Source & SaaS Chip Design Resources
 
----
-## Contents
+> A high-signal curated list of **Electronic Design Automation (EDA)** tools, production-ready flows, and tutorials for 2026.
 
-- [Getting Started](#getting-started)
-- [Books](#books)
-- [Hands-on Tutorials & Example Flows](#hands-on-tutorials--example-flows)
-- [Open-Source EDA Tools & Flows](#open-source-eda-tools--flows)
-  - [PCB & Schematic Design](#pcb--schematic-design)
-  - [HDL Simulation & Verification](#hdl-simulation--verification)
-  - [Logic Synthesis & FPGA Tools](#logic-synthesis--fpga-tools)
-  - [ASIC & Physical Design Flows](#asic--physical-design-flows)
-  - [Layout Editors & Viewers](#layout-editors--viewers)
-  - [Analog & Mixed-Signal Tools](#analog--mixed-signal-tools)
-- [SaaS & Hosted Platforms](#saas--hosted-platforms)
-- [Tools & Utilities](#tools--utilities)
-- [Community & Learning Resources](#community--learning-resources)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Getting Started
-
-- [KiCad Official Tutorials](https://www.kicad.org/help/tutorials/) – start with PCB design in minutes
-- [OpenLane Quickstart](https://openlane.readthedocs.io/en/latest/docs/source/quickstart.html) – complete RTL-to-GDSII flow
-- [OpenROAD User Guide](https://openroad.readthedocs.io/) – foundations of autonomous ASIC design
-- [Yosys Documentation](https://yosyshq.net/yosys/) – Verilog synthesis explained
-- [SkyWater 130nm PDK + OpenLane](https://github.com/google/skywater-pdk) – free PDK for real tape-outs
-- [eSim Tutorials](https://esim.fossee.in/tutorials) – integrated circuit + PCB workflow
-
-## Books
-
-- [Electronic Design Automation: Synthesis, Verification, and Test](https://www.sciencedirect.com/book/9780123743640/electronic-design-automation) by Lavagno, Markov, Scheffer – the definitive EDA reference
-- [Essential Electronic Design Automation (EDA)](https://www.amazon.com/Essential-Electronic-Design-Automation-EDA/dp/0131828290) by Mark D. Birnbaum – easy-to-understand overview
-- [CMOS VLSI Design: A Circuits and Systems Perspective](https://www.amazon.com/CMOS-VLSI-Design-Circuits-Perspective/dp/0321547748) by Weste & Harris – classic VLSI bible
-- [Algorithms for VLSI Physical Design Automation](https://www.amazon.com/Algorithms-VLSI-Physical-Design-Automation/dp/0792394895) by Naveed Sherwani – physical design fundamentals
-- [Digital Integrated Circuits: A Design Perspective](https://www.amazon.com/Digital-Integrated-Circuits-Design-Perspective/dp/0130909963) by Rabaey – RTL to silicon
-
-## Hands-on Tutorials & Example Flows
-
-- [Tiny Tapeout](https://tinytapeout.com/) – submit your design and get it fabricated on real silicon
-- [OpenLane Example Designs](https://github.com/The-OpenROAD-Project/OpenLane/tree/master/designs) – ready-to-run examples
-- [OpenROAD Flow Tutorials](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts) – complete end-to-end flows
-- [Yosys + nextpnr FPGA Workshop](https://github.com/YosysHQ/nextpnr) examples
-- [KiCad + ngspice Simulation Labs](https://forum.kicad.info/) community projects
-
-## Open-Source EDA Tools & Flows
+This repository serves as a comprehensive index for **ASIC, FPGA, and PCB design** in the modern era. Whether you are targeting the **SkyWater 130nm** open PDK, designing a high-speed PCB in **KiCad**, or leveraging **AI-driven SaaS** tools like Flux.ai, this list has you covered.
 
 ---
 
-### PCB & Schematic Design
+## 🗺️ Visual EDA Flow Index
 
-| Tool | Description | Year Initialized | Commercial Alternative | Key Deficiency |
+<p align="center">
+  <img src="assets/eda-flow.svg" alt="EDA Design Flow" width="400">
+</p>
+
+---
+
+## 📑 Contents
+
+- [🚀 Getting Started](#-getting-started)
+- [📚 Books](#-books)
+- [🎓 Hands-on Tutorials & Example Flows](#-hands-on-tutorials--example-flows)
+- [🛠️ Open-Source EDA Tools & Flows](#️-open-source-eda-tools--flows)
+  - [📟 PCB & Schematic Design](#-pcb--schematic-design)
+  - [📡 HDL Simulation & Verification](#-hdl-simulation--verification)
+  - [💎 Logic Synthesis & FPGA Tools](#-logic-synthesis--fpga-tools)
+  - [🏗️ ASIC & Physical Design Flows](#️-asic--physical-design-flows)
+  - [🔍 Layout Editors & Viewers](#-layout-editors--viewers)
+  - [⚡ Analog & Mixed-Signal Tools](#-analog--mixed-signal-tools)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [🧰 Tools & Utilities](#-tools--utilities)
+- [🤝 Community & Learning Resources](#-community--learning-resources)
+- [📝 Contributing](#-contributing)
+- [⚖️ License](#️-license)
+
+## 🚀 Getting Started
+
+- [KiCad Official Tutorials](https://www.kicad.org/help/tutorials/) – Start with PCB design in minutes.
+- [OpenLane Quickstart](https://openlane.readthedocs.io/en/latest/docs/source/quickstart.html) – Complete RTL-to-GDSII flow.
+- [OpenROAD User Guide](https://openroad.readthedocs.io/) – Foundations of autonomous ASIC design.
+- [Yosys Documentation](https://yosyshq.net/yosys/) – Verilog synthesis explained.
+- [SkyWater 130nm PDK + OpenLane](https://github.com/google/skywater-pdk) – Free PDK for real tape-outs.
+- [eSim Tutorials](https://esim.fossee.in/tutorials) – Integrated circuit + PCB workflow.
+
+## 📚 Books
+
+- [Electronic Design Automation: Synthesis, Verification, and Test](https://www.sciencedirect.com/book/9780123743640/electronic-design-automation) by Lavagno, Markov, Scheffer – The definitive EDA reference.
+- [Essential Electronic Design Automation (EDA)](https://www.amazon.com/Essential-Electronic-Design-Automation-EDA/dp/0131828290) by Mark D. Birnbaum – Easy-to-understand overview.
+- [CMOS VLSI Design: A Circuits and Systems Perspective](https://www.amazon.com/CMOS-VLSI-Design-Circuits-Perspective/dp/0321547748) by Weste & Harris – Classic VLSI bible.
+- [Digital Integrated Circuits: A Design Perspective](https://www.amazon.com/Digital-Integrated-Circuits-Design-Perspective/dp/0130909963) by Rabaey – RTL to silicon.
+
+## 🎓 Hands-on Tutorials & Example Flows
+
+- [Tiny Tapeout](https://tinytapeout.com/) – Submit your design and get it fabricated on real silicon.
+- [OpenLane Example Designs](https://github.com/The-OpenROAD-Project/OpenLane/tree/master/designs) – Ready-to-run examples.
+- [OpenROAD Flow Tutorials](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts) – Complete end-to-end flows.
+- [Yosys + nextpnr FPGA Workshop](https://github.com/YosysHQ/nextpnr) – Hands-on FPGA logic synthesis.
+- [KiCad + ngspice Simulation Labs](https://forum.kicad.info/) – Community projects.
+
+## 🛠️ Open-Source EDA Tools & Flows
+
+---
+
+### 📟 PCB & Schematic Design
+
+| Tool | Description | Year | Commercial Alternative | Key Deficiency |
 |---|---|---|---|---|
-| [KiCad](https://www.kicad.org) | professional-grade schematic capture + PCB layout (industry standard open alternative) | — | Altium Designer | Lacks advanced high-speed routing (complex length matching) and native back-drilled via support. |
-| [LibrePCB](https://librepcb.org) | modern, intuitive EDA suite with excellent library management | — | Autodesk Eagle | Lacks hierarchical schematic sheets and a mature, vendor-supplied library ecosystem. |
-| [eSim](https://github.com/FOSSEE/eSim) | full-stack circuit design, simulation, and PCB (KiCad + ngspice + Verilator) | — | Altium Designer | Wrapper-based; lacks a unified environment for HDI and complex rigid-flex designs. |
+| [KiCad](https://www.kicad.org) | 🛠️ Professional-grade schematic & PCB layout. | — | Altium Designer | Lacks complex length matching and native back-drilled via support. |
+| [LibrePCB](https://librepcb.org) | 🌿 Modern suite with excellent library management. | — | Autodesk Eagle | Lacks hierarchical sheets and mature vendor library ecosystem. |
+| [eSim](https://github.com/FOSSEE/eSim) | 🎓 Full-stack circuit design, simulation, and PCB. | — | Altium Designer | Wrapper-based; lacks unified environment for rigid-flex designs. |
 
 ---
 
-### HDL Simulation & Verification
+### 📡 HDL Simulation & Verification
 
-| Tool | Description | Year Initialized | Commercial Alternative | Key Deficiency |
+| Tool | Description | Year | Commercial Alternative | Key Deficiency |
 |---|---|---|---|---|
-| [Verilator](https://github.com/verilator/verilator) | fastest Verilog/SystemVerilog simulator (used in industry) | — | Synopsys VCS | 2-state cycle-accurate only; lacks native 4-state (X/Z) support and non-synthesizable testbench features. |
-| [Icarus Verilog](https://github.com/steveicarus/iverilog) | lightweight Verilog simulator & synthesizer | — | Siemens Questa | Limited SystemVerilog support for OOP (classes, interfaces) and complex SVA (Assertions). |
-| [GHDL](https://github.com/ghdl/ghdl) | VHDL simulator with excellent IEEE support | — | Siemens Questa | VHDL-only; lacks the multi-language (SV/VHDL/SystemC) integration found in commercial suites. |
-| [sv2v](https://github.com/zachjs/sv2v) | SystemVerilog to Verilog translator widely used in FPGA flows | 2019 | — | Niche utility; limited by the downstream tool's Verilog-95/2001 feature set. |
+| [Verilator](https://github.com/verilator/verilator) | 🚀 Fastest Verilog/SystemVerilog simulator. | — | Synopsys VCS | 2-state cycle-accurate only; lacks native 4-state (X/Z) support. |
+| [Icarus Verilog](https://github.com/steveicarus/iverilog) | 💡 Lightweight Verilog simulator & synthesizer. | — | Siemens Questa | Limited SV support for OOP and complex assertions (SVA). |
+| [GHDL](https://github.com/ghdl/ghdl) | 🔗 VHDL simulator with excellent IEEE support. | — | Siemens Questa | VHDL-only; lacks multi-language (SV/SystemC) integration. |
+| [sv2v](https://github.com/zachjs/sv2v) | 🔄 SystemVerilog to Verilog translator. | 2019 | — | Niche utility; limited by downstream tool features. |
 
 ---
 
-### Logic Synthesis & FPGA Tools
+### 💎 Logic Synthesis & FPGA Tools
 
-| Tool | Description | Year Initialized | Commercial Alternative | Key Deficiency |
+| Tool | Description | Year | Commercial Alternative | Key Deficiency |
 |---|---|---|---|---|
-| [Yosys](https://github.com/YosysHQ/yosys) | extensible Verilog RTL synthesis suite | 2012 | Synopsys Design Compiler | Lacks topographical awareness and advanced power-aware synthesis (UPF/CPF). |
-| [Berkeley-ABC](https://github.com/berkeley-abc/abc) | industrial-strength logic synthesis and verification system | 2005 | Synopsys Design Compiler | Primarily a logic optimizer; lacks industrial timing-driven mapping for complex cells. |
-| [nextpnr](https://github.com/YosysHQ/nextpnr) | FPGA place-and-route (Lattice, ECP5, iCE40, etc.) | — | Xilinx Vivado | Lacks deep device-specific optimizations (DSP/BRAM absorption) for high-utilization designs. |
-| [VTR (Verilog-to-Routing)](https://github.com/verilog-to-routing/vtr-verilog-to-routing) | academic FPGA CAD flow | 2012 | — | Academic focus; performance and P&R quality often trail vendor-specific tools. |
+| [Yosys](https://github.com/YosysHQ/yosys) | 🔧 Extensible Verilog RTL synthesis suite. | 2012 | Synopsys DC | Lacks topographical awareness and advanced power-aware synthesis. |
+| [Berkeley-ABC](https://github.com/berkeley-abc/abc) | 📐 Logic synthesis and verification system. | 2005 | Synopsys DC | Primarily a logic optimizer; lacks industrial timing-driven mapping. |
+| [nextpnr](https://github.com/YosysHQ/nextpnr) | 🗺️ FPGA place-and-route (Lattice, ECP5, etc.). | — | Xilinx Vivado | Lacks deep device optimizations for high-utilization designs. |
+| [VTR](https://github.com/verilog-to-routing/vtr-verilog-to-routing) | 🏫 Academic FPGA CAD flow. | 2012 | — | Performance often trails vendor-specific tools. |
 
 ---
 
-### ASIC & Physical Design Flows
+### 🏗️ ASIC & Physical Design Flows
 
-| Tool | Description | Year Initialized | Commercial Alternative | Key Deficiency |
+| Tool | Description | Year | Commercial Alternative | Key Deficiency |
 |---|---|---|---|---|
-| [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) | autonomous RTL-to-GDSII flow | — | Cadence Innovus | Shows ~2.1x area penalty; lacks manual congestion "knobs" and advanced MCMM optimization. |
-| [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) | complete automated ASIC flow (used for real tape-outs) | — | Cadence Innovus | Automated but rigid; difficult to customize for non-standard cells or complex power domains. |
-| [iEDA](https://github.com/OSCC-Project/iEDA) | full netlist-to-GDS infrastructure | — | Cadence Innovus | Emerging infrastructure; lacks the decades of industrial validation found in commercial flows. |
-| [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA) | static timing analysis engine used in modern open ASIC flows | 2018 | Synopsys PrimeTime | Lacks Signal Integrity (SI) analysis for crosstalk/noise and variation-aware (POCV) modeling. |
-| [RePlAce](https://github.com/The-OpenROAD-Project/RePlAce) | analytic global placement engine | 2018 | — | Academic engine; PPA often trails commercial placers on high-congestion designs. |
-| [TritonCTS](https://github.com/The-OpenROAD-Project/TritonCTS) | clock tree synthesis engine | 2018 | — | Basic CTS; lacks sophisticated skew-balancing for multi-corner multi-mode (MCMM) designs. |
-| [OpenDP](https://github.com/sanggido/OpenDP) | detailed placement optimizer | 2018 | — | Simple legalizer/optimizer; limited area-recovery compared to commercial equivalents. |
-| [OpenTimer](https://github.com/OpenTimer/OpenTimer) | high-performance timing analysis framework | 2015 | — | Academic focus; lacks the comprehensive sign-off certification of PrimeTime or Tempus. |
+| [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) | 🤖 Autonomous RTL-to-GDSII flow. | — | Cadence Innovus | ~2.1x area penalty; lacks manual congestion "knobs". |
+| [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) | 🏗️ Automated ASIC flow (real tape-outs). | — | Cadence Innovus | Rigid; difficult to customize for non-standard cells. |
+| [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA) | ⏱️ Static timing analysis engine. | 2018 | Synopsys PrimeTime | Lacks Signal Integrity (SI) and variation-aware modeling. |
 
 ---
 
-### Layout Editors & Viewers
+### 🔍 Layout Editors & Viewers
 
-| Tool | Description | Year Initialized | Commercial Alternative | Key Deficiency |
+| Tool | Description | Year | Commercial Alternative | Key Deficiency |
 |---|---|---|---|---|
-| [Magic VLSI](https://github.com/libresilicon/magic-8.22017) | venerable interactive layout editor | 2017 | Cadence Virtuoso | Lacks Schematic Driven Layout (SDL) and advanced extraction for FinFET nodes. |
-| [KLayout](https://github.com/KLayout/klayout) | powerful GDS/OASIS viewer, editor, and DRC tool | 2017 | Cadence Virtuoso | Primarily a viewer/editor; lacks integrated PDK management and real-time SDL cross-probing. |
-| [Qrouter](http://opencircuitdesign.com/qrouter/) | grid-based autorouter for IC layouts | 2013 | — | Limited to simple grid-based routing; lacks the timing-driven multi-layer routing of Innovus. |
+| [Magic VLSI](https://github.com/libresilicon/magic-8.22017) | 🏛️ Venerable interactive layout editor. | 2017 | Cadence Virtuoso | Lacks Schematic Driven Layout (SDL) and FinFET extraction. |
+| [KLayout](https://github.com/KLayout/klayout) |  telescope Powerful GDS/OASIS viewer and editor. | 2017 | Cadence Virtuoso | Lacks integrated PDK management and real-time SDL probing. |
 
 ---
 
-### Analog & Mixed-Signal Tools
+### ⚡ Analog & Mixed-Signal Tools
 
-| Tool | Description | Year Initialized | Commercial Alternative | Key Deficiency |
+| Tool | Description | Year | Commercial Alternative | Key Deficiency |
 |---|---|---|---|---|
-| [ngspice](https://github.com/imr/ngspice) | SPICE circuit simulator (industry-grade open source) | 1999 | Cadence Spectre | Lacks native Verilog-A/AMS support and foundry-certified model implementations for advanced nodes. |
-| [Xschem](https://github.com/stefanschippers/xschem) | schematic capture for analog/mixed-signal | — | Cadence Virtuoso | Lacks the unified "Library Manager" and design management infrastructure of the Virtuoso ecosystem. |
-| [ALIGN](https://github.com/ALIGN-analoglayout/ALIGN-public) | automated analog layout synthesis framework | 2018 | Virtuoso Layout XL | Automation-only; cannot yet replicate manual "expert tricks" (matching, parasitic balancing) of human designers. |
+| [ngspice](https://github.com/imr/ngspice) | 📈 SPICE circuit simulator (industry-grade). | 1999 | Cadence Spectre | Lacks native Verilog-A support and certified model implementations. |
+| [Xschem](https://github.com/stefanschippers/xschem) | 📝 Schematic capture for analog/mixed-signal. | — | Cadence Virtuoso | Lacks unified Library Manager and design management infrastructure. |
+| [ALIGN](https://github.com/ALIGN-analoglayout/ALIGN-public) | 🤖 Automated analog layout synthesis. | 2018 | Virtuoso Layout XL | Cannot yet replicate manual "expert tricks" of human designers. |
 
 ---
 
-## SaaS & Hosted Platforms
+## ☁️ SaaS & Hosted Platforms
 
 | Product | Description | Pricing | Free Tier Limit | Major Clients |
 |---|---|---|---|---|
-| [Flux.ai](https://www.flux.ai) | Browser-based PCB design with AI Copilot and collaboration. | $20/mo (Starter) | 14-day trial; public projects only after | Luxonis, Geocene, Fortune 50 teams |
-| [EasyEDA](https://easyeda.com) | Cloud-based suite integrated with JLCPCB/LCSC parts library. | $7.99/mo (Pro) | Forever free for personal/commercial use | SMEs, Rapid Prototyping teams |
-| [Upverter](https://upverter.com) | Modular, browser-native PCB design tool by Altium. | Free | Unlimited use (no paid tier) | Hobbyists, Startups |
-| [CircuitMaker](https://circuitmaker.com) | Community-focused PCB design powered by Altium's engine. | Free | Unlimited public projects only | Open Source Community |
-| [Autodesk Fusion](https://www.autodesk.com/products/fusion-360) | Professional integrated CAD/CAM/CAE and PCB design. | ~$700/year (Pro) | Non-commercial use (limited to 2 layers) | Patagonia, SRAM, Specialized |
-| [CircuitMind](https://circuitmind.io) | AI-driven schematic generation and BOM optimization. | $29/mo (Starter) | 1 project, 1 seat, 100 AI feedback items | Small-to-Mid Design Houses |
-| [JITX](https://www.jitx.com) | Programmatic (Python-based) hardware design automation. | Sales-led | Free for public CERN OHL-licensed designs | Lockheed Martin, Northrop Grumman |
-| [CADLAB.io](https://cadlab.io) | Visual diff and version control platform for hardware. | $6/mo (Indiv) | Unlimited public projects & collaborators | Arduino, Open Hardware teams |
-| [InventHub](https://inventhub.io) | Git-based design management and collaboration platform. | Sales-led | Free for open-source community projects | Hardware Design Teams |
-| [Synopsys Cloud](https://www.synopsys.com/cloud.html) | Flagship IC design tools (VCS, PrimeTime) with pay-per-use. | Pay-per-minute (PPU) | Free trial with reference designs | NVIDIA, Intel, AMD, Qualcomm |
-| [Cadence OnCloud](https://www.cadence.com/en_US/home/solutions/oncloud.html) | On-demand marketplace for simulation (Sigrity, Clarity, AWR). | Token-based / Hourly | 8-hour free trial for select tools | Apple, NVIDIA, Samsung, Qualcomm |
-| [Siemens PADS Pro SaaS](https://eda.sw.siemens.com/en-US/pcb/pads/pads-professional-student-edition/) | Cloud-connected PCB design suite and DFM analysis (PCBflow). | ~$249/mo (SaaS) | 30-day free trial; Free Student Edition | NVIDIA, Apple, Samsung, MediaTek |
+| [Flux.ai](https://www.flux.ai) | 🤖 AI-driven browser-based PCB design. | $20/mo | 14-day trial | Luxonis, Geocene |
+| [Synopsys Cloud](https://www.synopsys.com/cloud.html) | ☁️ Flagship IC tools (pay-as-you-go). | Per-minute | Free reference designs | NVIDIA, Intel, AMD |
+| [Cadence OnCloud](https://www.cadence.com/en_US/home/solutions/oncloud.html) | 🛍️ On-demand simulation marketplace. | Token-based | 8-hour free trial | Apple, NVIDIA, Samsung |
+| [JITX](https://www.jitx.com) | 🐍 Python-based hardware automation. | Sales-led | Free for public designs | Lockheed Martin |
 
 ---
 
-## Tools & Utilities
+## 🧰 Tools & Utilities
 
-| Tool | Description | Year Initialized |
+| Tool | Description | Year |
 |---|---|---|
-| [SkyWater 130nm PDK](https://github.com/google/skywater-pdk) | free manufacturable process design kit | — |
-| [Open_PDKs](https://github.com/RTimothyEdwards/open_pdks) | open-source process design kits | — |
-| [CVC](https://github.com/d-michail/cvc) | circuit verifier | 2009 |
-| [Netgen](https://github.com/RTimothyEdwards/netgen) | LVS (Layout vs Schematic) | — |
+| [SkyWater 130nm PDK](https://github.com/google/skywater-pdk) | 🛠️ Free manufacturable PDK. | — |
+| [Open_PDKs](https://github.com/RTimothyEdwards/open_pdks) | ⚙️ Open PDK setup tools. | — |
+| [Netgen](https://github.com/RTimothyEdwards/netgen) | 🧬 LVS (Layout vs Schematic). | — |
 
 ---
 
-## Experimental, Research & Specialized EDA Projects (From clin99 Awesome-EDA **See also**: https://github.com/clin99/awesome-eda)
+## 🧪 Experimental & Research
 
-| Tool | Primary Area | Description | Year Initialized |
+| Tool | Primary Area | Description |
 |---|---|---|---|
-| [PyMTL](https://github.com/cornell-brg/pymtl) | Hardware Modeling | Python-based hardware modeling and simulation framework used in academia | 2012 |
-| [ILAng](https://github.com/Bo-Yuan-Huang/ILAng) | SoC Verification | Instruction-Level Abstraction modeling and verification platform | 2016 |
-| [Galois Parallel Framework](https://github.com/IntelligentSoftwareSystems/Galois) | CAD Infrastructure | Parallel algorithm research framework used in EDA experimentation | 2010 |
-| [HAMMER](https://github.com/ucb-bar/hammer) | Flow Orchestration | Modular ASIC flow generation and configuration framework | 2017 |
-| [Lgraph](https://github.com/masc-ucsc/lgraph) | Synthesis Infrastructure | Graph-based synthesis and simulation infrastructure | 2018 |
-| [MAGICAL](https://github.com/magical-eda/MAGICAL) | Analog Layout Automation | Machine-generated analog IC layout automation framework | 2019 |
-| [AMPSE](https://github.com/USCPOSH/AMPSE) | Analog Design Automation | Analog parameter search and optimization engine | 2019 |
-| [Analog Known Good Designs](https://github.com/USCPOSH/AMS_KGD) | Analog Reference Designs | Verified analog circuit design repository | 2019 |
-| [Circuit IP Sanitizer](https://github.com/USCPOSH/Sanitizer) | Analog Verification | IP validation and sanitization tooling | 2019 |
-| [AMC (Async Memory Compiler)](https://github.com/asyncvlsi/AMC) | Memory Design | Asynchronous memory compiler research project | 2019 |
-| [PVT Sensors](https://github.com/scale-lab/PVTsensors) | Analog Test Infrastructure | Open PVT sensor development framework | 2019 |
-| [UW IDEA Analog TestCases](https://github.com/uwidea/UW-IDEA_AnalogTestCases) | Analog Benchmarks | Analog testing and validation circuits | 2019 |
-| [OpenPiton](https://github.com/PrincetonUniversity/openpiton) | Research SoC Platform | Manycore open research processor platform | 2018 |
-| [PRGA](https://github.com/PrincetonUniversity/prga) | FPGA Workflow | Research FPGA architecture exploration workflow | 2018 |
-| [OpenFPGA (FPGA-SPICE)](https://github.com/LNIS-Projects/OpenFPGA) | FPGA Modeling | FPGA architecture modeling and SPICE co-simulation | 2018 |
-| [EPFL Logic Benchmark Suite](https://github.com/lsils/benchmarks) | Benchmarks | Widely used combinational logic synthesis benchmarks | 2018 |
-| [Parser-SPEF](https://github.com/OpenTimer/Parser-SPEF) | Physical Design Utility | SPEF parasitic extraction file parser | 2018 |
-| [UW BSG Pipecleaner Suite](https://github.com/bespoke-silicon-group/bsg_pipeclean_suite) | Verification Benchmarks | Microarchitecture testing framework | 2019 |
-| [Graywolf](https://github.com/rubund/graywolf2014) | Placement | Academic ASIC placement research tool | 2014 |
-| [BoxRouter](https://github.com/krzhu/BoxRouter) | Routing | Global routing academic prototype | 2016 |
+| [PyMTL](https://github.com/cornell-brg/pymtl) | 🐍 Hardware Modeling | Python-based hardware modeling framework. |
+| [OpenPiton](https://github.com/PrincetonUniversity/openpiton) | 🏰 Research SoC | Manycore open research processor platform. |
+| [PRGA](https://github.com/PrincetonUniversity/prga) | 💎 FPGA Workflow | Research FPGA architecture exploration workflow. |
 
 ---
 
-## Community & Learning Resources
+## 🤝 Community & Learning Resources
 
-- [EDAboard](https://www.edaboard.com) – largest international EDA discussion forum
-- [r/VLSI](https://www.reddit.com/r/VLSI/), [r/FPGA](https://www.reddit.com/r/FPGA/), [r/ECE](https://www.reddit.com/r/ECE/), [r/chipdesign](https://www.reddit.com/r/chipdesign/)
-- [KiCad Discord](https://discord.com/invite/FANuKv8sZn) – official KiCad community
-- [OpenROAD GitHub Discussions](https://github.com/The-OpenROAD-Project/OpenROAD/discussions) – active developer & user support
-- [VLSIGuru / VLSI Academy](https://vlsiguru.com) – free/paid training resources
-- [1BitSquared Community](https://1bitsquared.com/pages/community) – FPGA & open hardware
+- [EDAboard](https://www.edaboard.com) – 💬 Largest international EDA discussion forum.
+- [r/VLSI](https://www.reddit.com/r/VLSI/), [r/FPGA](https://www.reddit.com/r/FPGA/), [r/chipdesign](https://www.reddit.com/r/chipdesign/).
+- [KiCad Discord](https://discord.com/invite/FANuKv8sZn) – 🎧 Official community.
+- [VLSIGuru](https://vlsiguru.com) – 🎓 Training resources.
 
-## Contributing
+## 📝 Contributing
 
-Contributions are **highly welcome**! Please read the rules below.
-
-**Rules**:
-- Only **high-quality, actively maintained** tools (recent commits, good documentation, real usage).
-- One line per entry:
-  ```markdown
-  - [Tool Name](link) – Short, compelling one-sentence description.
-  ```
+Contributions are **highly welcome**! Ensure tools are **actively maintained** and provide a clear one-sentence description.
 
 ## ✨ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Awesome-EDA&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-EDA&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=ishandukka2007/Awesome-EDA&type=date&legend=top-left)](https://www.star-history.com/#ishandukka2007/Awesome-EDA&type=date&legend=top-left)
