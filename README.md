@@ -132,6 +132,9 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 | [JITX](https://www.jitx.com) | Programmatic (Python-based) hardware design automation. | Sales-led | Free for public CERN OHL-licensed designs |
 | [CADLAB.io](https://cadlab.io) | Visual diff and version control platform for hardware. | $6/mo (Indiv) | Unlimited public projects & collaborators |
 | [InventHub](https://inventhub.io) | Git-based design management and collaboration platform. | Sales-led | Free for open-source community projects |
+| [Synopsys Cloud](https://www.synopsys.com/cloud.html) | Flagship IC design tools (VCS, PrimeTime) with pay-per-use. | Pay-per-minute (PPU) | Free trial with reference designs |
+| [Cadence OnCloud](https://www.cadence.com/en_US/home/solutions/oncloud.html) | On-demand marketplace for simulation (Sigrity, Clarity, AWR). | Token-based / Hourly | 8-hour free trial for select tools |
+| [Siemens PADS Pro SaaS](https://eda.sw.siemens.com/en-US/pcb/pads/pads-professional-student-edition/) | Cloud-connected PCB design suite and DFM analysis (PCBflow). | ~$249/mo (SaaS) | 30-day free trial; Free Student Edition |
 
 ---
 
