@@ -54,68 +54,68 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 
 ### PCB & Schematic Design
 
-| Tool | Description | Year Initialized |
-|---|---|---|
-| [KiCad](https://www.kicad.org) | professional-grade schematic capture + PCB layout (industry standard open alternative) | — |
-| [LibrePCB](https://librepcb.org) | modern, intuitive EDA suite with excellent library management | — |
-| [eSim](https://github.com/FOSSEE/eSim) | full-stack circuit design, simulation, and PCB (KiCad + ngspice + Verilator) | — |
+| Tool | Description | Year Initialized | Commercial Alternative | Key Deficiency |
+|---|---|---|---|---|
+| [KiCad](https://www.kicad.org) | professional-grade schematic capture + PCB layout (industry standard open alternative) | — | Altium Designer | Lacks advanced high-speed routing (complex length matching) and native back-drilled via support. |
+| [LibrePCB](https://librepcb.org) | modern, intuitive EDA suite with excellent library management | — | Autodesk Eagle | Lacks hierarchical schematic sheets and a mature, vendor-supplied library ecosystem. |
+| [eSim](https://github.com/FOSSEE/eSim) | full-stack circuit design, simulation, and PCB (KiCad + ngspice + Verilator) | — | Altium Designer | Wrapper-based; lacks a unified environment for HDI and complex rigid-flex designs. |
 
 ---
 
 ### HDL Simulation & Verification
 
-| Tool | Description | Year Initialized |
-|---|---|---|
-| [Verilator](https://github.com/verilator/verilator) | fastest Verilog/SystemVerilog simulator (used in industry) | — |
-| [Icarus Verilog](https://github.com/steveicarus/iverilog) | lightweight Verilog simulator & synthesizer | — |
-| [GHDL](https://github.com/ghdl/ghdl) | VHDL simulator with excellent IEEE support | — |
-| [sv2v](https://github.com/zachjs/sv2v) | SystemVerilog to Verilog translator widely used in FPGA flows | 2019 |
+| Tool | Description | Year Initialized | Commercial Alternative | Key Deficiency |
+|---|---|---|---|---|
+| [Verilator](https://github.com/verilator/verilator) | fastest Verilog/SystemVerilog simulator (used in industry) | — | Synopsys VCS | 2-state cycle-accurate only; lacks native 4-state (X/Z) support and non-synthesizable testbench features. |
+| [Icarus Verilog](https://github.com/steveicarus/iverilog) | lightweight Verilog simulator & synthesizer | — | Siemens Questa | Limited SystemVerilog support for OOP (classes, interfaces) and complex SVA (Assertions). |
+| [GHDL](https://github.com/ghdl/ghdl) | VHDL simulator with excellent IEEE support | — | Siemens Questa | VHDL-only; lacks the multi-language (SV/VHDL/SystemC) integration found in commercial suites. |
+| [sv2v](https://github.com/zachjs/sv2v) | SystemVerilog to Verilog translator widely used in FPGA flows | 2019 | — | Niche utility; limited by the downstream tool's Verilog-95/2001 feature set. |
 
 ---
 
 ### Logic Synthesis & FPGA Tools
 
-| Tool | Description | Year Initialized |
-|---|---|---|
-| [Yosys](https://github.com/YosysHQ/yosys) | extensible Verilog RTL synthesis suite | 2012 |
-| [Berkeley-ABC](https://github.com/berkeley-abc/abc) | industrial-strength logic synthesis and verification system | 2005 |
-| [nextpnr](https://github.com/YosysHQ/nextpnr) | FPGA place-and-route (Lattice, ECP5, iCE40, etc.) | — |
-| [VTR (Verilog-to-Routing)](https://github.com/verilog-to-routing/vtr-verilog-to-routing) | academic FPGA CAD flow | 2012 |
+| Tool | Description | Year Initialized | Commercial Alternative | Key Deficiency |
+|---|---|---|---|---|
+| [Yosys](https://github.com/YosysHQ/yosys) | extensible Verilog RTL synthesis suite | 2012 | Synopsys Design Compiler | Lacks topographical awareness and advanced power-aware synthesis (UPF/CPF). |
+| [Berkeley-ABC](https://github.com/berkeley-abc/abc) | industrial-strength logic synthesis and verification system | 2005 | Synopsys Design Compiler | Primarily a logic optimizer; lacks industrial timing-driven mapping for complex cells. |
+| [nextpnr](https://github.com/YosysHQ/nextpnr) | FPGA place-and-route (Lattice, ECP5, iCE40, etc.) | — | Xilinx Vivado | Lacks deep device-specific optimizations (DSP/BRAM absorption) for high-utilization designs. |
+| [VTR (Verilog-to-Routing)](https://github.com/verilog-to-routing/vtr-verilog-to-routing) | academic FPGA CAD flow | 2012 | — | Academic focus; performance and P&R quality often trail vendor-specific tools. |
 
 ---
 
 ### ASIC & Physical Design Flows
 
-| Tool | Description | Year Initialized |
-|---|---|---|
-| [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) | autonomous RTL-to-GDSII flow | — |
-| [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) | complete automated ASIC flow (used for real tape-outs) | — |
-| [iEDA](https://github.com/OSCC-Project/iEDA) | full netlist-to-GDS infrastructure | — |
-| [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA) | static timing analysis engine used in modern open ASIC flows | 2018 |
-| [RePlAce](https://github.com/The-OpenROAD-Project/RePlAce) | analytic global placement engine | 2018 |
-| [TritonCTS](https://github.com/The-OpenROAD-Project/TritonCTS) | clock tree synthesis engine | 2018 |
-| [OpenDP](https://github.com/sanggido/OpenDP) | detailed placement optimizer | 2018 |
-| [OpenTimer](https://github.com/OpenTimer/OpenTimer) | high-performance timing analysis framework | 2015 |
+| Tool | Description | Year Initialized | Commercial Alternative | Key Deficiency |
+|---|---|---|---|---|
+| [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) | autonomous RTL-to-GDSII flow | — | Cadence Innovus | Shows ~2.1x area penalty; lacks manual congestion "knobs" and advanced MCMM optimization. |
+| [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) | complete automated ASIC flow (used for real tape-outs) | — | Cadence Innovus | Automated but rigid; difficult to customize for non-standard cells or complex power domains. |
+| [iEDA](https://github.com/OSCC-Project/iEDA) | full netlist-to-GDS infrastructure | — | Cadence Innovus | Emerging infrastructure; lacks the decades of industrial validation found in commercial flows. |
+| [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA) | static timing analysis engine used in modern open ASIC flows | 2018 | Synopsys PrimeTime | Lacks Signal Integrity (SI) analysis for crosstalk/noise and variation-aware (POCV) modeling. |
+| [RePlAce](https://github.com/The-OpenROAD-Project/RePlAce) | analytic global placement engine | 2018 | — | Academic engine; PPA often trails commercial placers on high-congestion designs. |
+| [TritonCTS](https://github.com/The-OpenROAD-Project/TritonCTS) | clock tree synthesis engine | 2018 | — | Basic CTS; lacks sophisticated skew-balancing for multi-corner multi-mode (MCMM) designs. |
+| [OpenDP](https://github.com/sanggido/OpenDP) | detailed placement optimizer | 2018 | — | Simple legalizer/optimizer; limited area-recovery compared to commercial equivalents. |
+| [OpenTimer](https://github.com/OpenTimer/OpenTimer) | high-performance timing analysis framework | 2015 | — | Academic focus; lacks the comprehensive sign-off certification of PrimeTime or Tempus. |
 
 ---
 
 ### Layout Editors & Viewers
 
-| Tool | Description | Year Initialized |
-|---|---|---|
-| [Magic VLSI](https://github.com/libresilicon/magic-8.22017) | venerable interactive layout editor | 2017 |
-| [KLayout](https://github.com/KLayout/klayout) | powerful GDS/OASIS viewer, editor, and DRC tool | 2017 |
-| [Qrouter](http://opencircuitdesign.com/qrouter/) | grid-based autorouter for IC layouts | 2013 |
+| Tool | Description | Year Initialized | Commercial Alternative | Key Deficiency |
+|---|---|---|---|---|
+| [Magic VLSI](https://github.com/libresilicon/magic-8.22017) | venerable interactive layout editor | 2017 | Cadence Virtuoso | Lacks Schematic Driven Layout (SDL) and advanced extraction for FinFET nodes. |
+| [KLayout](https://github.com/KLayout/klayout) | powerful GDS/OASIS viewer, editor, and DRC tool | 2017 | Cadence Virtuoso | Primarily a viewer/editor; lacks integrated PDK management and real-time SDL cross-probing. |
+| [Qrouter](http://opencircuitdesign.com/qrouter/) | grid-based autorouter for IC layouts | 2013 | — | Limited to simple grid-based routing; lacks the timing-driven multi-layer routing of Innovus. |
 
 ---
 
 ### Analog & Mixed-Signal Tools
 
-| Tool | Description | Year Initialized |
-|---|---|---|
-| [ngspice](https://github.com/imr/ngspice) | SPICE circuit simulator (industry-grade open source) | 1999 |
-| [Xschem](https://github.com/stefanschippers/xschem) | schematic capture for analog/mixed-signal | — |
-| [ALIGN](https://github.com/ALIGN-analoglayout/ALIGN-public) | automated analog layout synthesis framework | 2018 |
+| Tool | Description | Year Initialized | Commercial Alternative | Key Deficiency |
+|---|---|---|---|---|
+| [ngspice](https://github.com/imr/ngspice) | SPICE circuit simulator (industry-grade open source) | 1999 | Cadence Spectre | Lacks native Verilog-A/AMS support and foundry-certified model implementations for advanced nodes. |
+| [Xschem](https://github.com/stefanschippers/xschem) | schematic capture for analog/mixed-signal | — | Cadence Virtuoso | Lacks the unified "Library Manager" and design management infrastructure of the Virtuoso ecosystem. |
+| [ALIGN](https://github.com/ALIGN-analoglayout/ALIGN-public) | automated analog layout synthesis framework | 2018 | Virtuoso Layout XL | Automation-only; cannot yet replicate manual "expert tricks" (matching, parasitic balancing) of human designers. |
 
 ---
 
