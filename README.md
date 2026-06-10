@@ -121,20 +121,20 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 
 ## SaaS & Hosted Platforms
 
-| Product | Description | Pricing | Free Tier Limit |
-|---|---|---|---|
-| [Flux.ai](https://www.flux.ai) | Browser-based PCB design with AI Copilot and collaboration. | $20/mo (Starter) | 14-day trial; public projects only after |
-| [EasyEDA](https://easyeda.com) | Cloud-based suite integrated with JLCPCB/LCSC parts library. | $7.99/mo (Pro) | Forever free for personal/commercial use |
-| [Upverter](https://upverter.com) | Modular, browser-native PCB design tool by Altium. | Free | Unlimited use (no paid tier) |
-| [CircuitMaker](https://circuitmaker.com) | Community-focused PCB design powered by Altium's engine. | Free | Unlimited public projects only |
-| [Autodesk Fusion](https://www.autodesk.com/products/fusion-360) | Professional integrated CAD/CAM/CAE and PCB design. | ~$700/year (Pro) | Non-commercial use (limited to 2 layers) |
-| [CircuitMind](https://circuitmind.io) | AI-driven schematic generation and BOM optimization. | $29/mo (Starter) | 1 project, 1 seat, 100 AI feedback items |
-| [JITX](https://www.jitx.com) | Programmatic (Python-based) hardware design automation. | Sales-led | Free for public CERN OHL-licensed designs |
-| [CADLAB.io](https://cadlab.io) | Visual diff and version control platform for hardware. | $6/mo (Indiv) | Unlimited public projects & collaborators |
-| [InventHub](https://inventhub.io) | Git-based design management and collaboration platform. | Sales-led | Free for open-source community projects |
-| [Synopsys Cloud](https://www.synopsys.com/cloud.html) | Flagship IC design tools (VCS, PrimeTime) with pay-per-use. | Pay-per-minute (PPU) | Free trial with reference designs |
-| [Cadence OnCloud](https://www.cadence.com/en_US/home/solutions/oncloud.html) | On-demand marketplace for simulation (Sigrity, Clarity, AWR). | Token-based / Hourly | 8-hour free trial for select tools |
-| [Siemens PADS Pro SaaS](https://eda.sw.siemens.com/en-US/pcb/pads/pads-professional-student-edition/) | Cloud-connected PCB design suite and DFM analysis (PCBflow). | ~$249/mo (SaaS) | 30-day free trial; Free Student Edition |
+| Product | Description | Pricing | Free Tier Limit | Major Clients |
+|---|---|---|---|---|
+| [Flux.ai](https://www.flux.ai) | Browser-based PCB design with AI Copilot and collaboration. | $20/mo (Starter) | 14-day trial; public projects only after | Luxonis, Geocene, Fortune 50 teams |
+| [EasyEDA](https://easyeda.com) | Cloud-based suite integrated with JLCPCB/LCSC parts library. | $7.99/mo (Pro) | Forever free for personal/commercial use | SMEs, Rapid Prototyping teams |
+| [Upverter](https://upverter.com) | Modular, browser-native PCB design tool by Altium. | Free | Unlimited use (no paid tier) | Hobbyists, Startups |
+| [CircuitMaker](https://circuitmaker.com) | Community-focused PCB design powered by Altium's engine. | Free | Unlimited public projects only | Open Source Community |
+| [Autodesk Fusion](https://www.autodesk.com/products/fusion-360) | Professional integrated CAD/CAM/CAE and PCB design. | ~$700/year (Pro) | Non-commercial use (limited to 2 layers) | Patagonia, SRAM, Specialized |
+| [CircuitMind](https://circuitmind.io) | AI-driven schematic generation and BOM optimization. | $29/mo (Starter) | 1 project, 1 seat, 100 AI feedback items | Small-to-Mid Design Houses |
+| [JITX](https://www.jitx.com) | Programmatic (Python-based) hardware design automation. | Sales-led | Free for public CERN OHL-licensed designs | Lockheed Martin, Northrop Grumman |
+| [CADLAB.io](https://cadlab.io) | Visual diff and version control platform for hardware. | $6/mo (Indiv) | Unlimited public projects & collaborators | Arduino, Open Hardware teams |
+| [InventHub](https://inventhub.io) | Git-based design management and collaboration platform. | Sales-led | Free for open-source community projects | Hardware Design Teams |
+| [Synopsys Cloud](https://www.synopsys.com/cloud.html) | Flagship IC design tools (VCS, PrimeTime) with pay-per-use. | Pay-per-minute (PPU) | Free trial with reference designs | NVIDIA, Intel, AMD, Qualcomm |
+| [Cadence OnCloud](https://www.cadence.com/en_US/home/solutions/oncloud.html) | On-demand marketplace for simulation (Sigrity, Clarity, AWR). | Token-based / Hourly | 8-hour free trial for select tools | Apple, NVIDIA, Samsung, Qualcomm |
+| [Siemens PADS Pro SaaS](https://eda.sw.siemens.com/en-US/pcb/pads/pads-professional-student-edition/) | Cloud-connected PCB design suite and DFM analysis (PCBflow). | ~$249/mo (SaaS) | 30-day free trial; Free Student Edition | NVIDIA, Apple, Samsung, MediaTek |
 
 ---
 
