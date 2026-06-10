@@ -17,6 +17,7 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
   - [ASIC & Physical Design Flows](#asic--physical-design-flows)
   - [Layout Editors & Viewers](#layout-editors--viewers)
   - [Analog & Mixed-Signal Tools](#analog--mixed-signal-tools)
+- [SaaS & Hosted Platforms](#saas--hosted-platforms)
 - [Tools & Utilities](#tools--utilities)
 - [Community & Learning Resources](#community--learning-resources)
 - [Contributing](#contributing)
@@ -115,6 +116,22 @@ This list focuses on **actively maintained, open-source, production-ready, or ed
 | [ngspice](https://github.com/imr/ngspice) | SPICE circuit simulator (industry-grade open source) | 1999 |
 | [Xschem](https://github.com/stefanschippers/xschem) | schematic capture for analog/mixed-signal | — |
 | [ALIGN](https://github.com/ALIGN-analoglayout/ALIGN-public) | automated analog layout synthesis framework | 2018 |
+
+---
+
+## SaaS & Hosted Platforms
+
+| Product | Description | Pricing | Free Tier Limit |
+|---|---|---|---|
+| [Flux.ai](https://www.flux.ai) | Browser-based PCB design with AI Copilot and collaboration. | $20/mo (Starter) | 14-day trial; public projects only after |
+| [EasyEDA](https://easyeda.com) | Cloud-based suite integrated with JLCPCB/LCSC parts library. | $7.99/mo (Pro) | Forever free for personal/commercial use |
+| [Upverter](https://upverter.com) | Modular, browser-native PCB design tool by Altium. | Free | Unlimited use (no paid tier) |
+| [CircuitMaker](https://circuitmaker.com) | Community-focused PCB design powered by Altium's engine. | Free | Unlimited public projects only |
+| [Autodesk Fusion](https://www.autodesk.com/products/fusion-360) | Professional integrated CAD/CAM/CAE and PCB design. | ~$700/year (Pro) | Non-commercial use (limited to 2 layers) |
+| [CircuitMind](https://circuitmind.io) | AI-driven schematic generation and BOM optimization. | $29/mo (Starter) | 1 project, 1 seat, 100 AI feedback items |
+| [JITX](https://www.jitx.com) | Programmatic (Python-based) hardware design automation. | Sales-led | Free for public CERN OHL-licensed designs |
+| [CADLAB.io](https://cadlab.io) | Visual diff and version control platform for hardware. | $6/mo (Indiv) | Unlimited public projects & collaborators |
+| [InventHub](https://inventhub.io) | Git-based design management and collaboration platform. | Sales-led | Free for open-source community projects |
 
 ---
 
