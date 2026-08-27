@@ -151,6 +151,8 @@ This repository serves as a comprehensive index for **ASIC, FPGA, and PCB design
 
 ## ☁️ SaaS & Hosted Platforms
 
+> **Market Overview:** The global EDA and Cloud EDA market is valued at **~$15B–$17B+** (projected to exceed **$24B by 2030** at ~10% CAGR). The sector is **highly concentrated (oligopolistic / winner-take-most)**—dominated by giants Synopsys, Cadence, and Siemens EDA—while high-growth SaaS startups capture specialized niches in AI-driven PCB synthesis, browser simulation, and collaborative hardware workflows.
+
 | Product | Description | Pricing | Free Tier Limit | Major Clients |
 |---|---|---|---|---|
 | [Flux.ai](https://www.flux.ai) | 🤖 AI-driven browser-based PCB design. | $20/mo | 14-day trial | Luxonis, Geocene |
