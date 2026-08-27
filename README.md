@@ -79,9 +79,9 @@ This repository serves as a comprehensive index for **ASIC, FPGA, and PCB design
 
 | Tool | Description | Year | Commercial Alternative | Key Deficiency |
 |---|---|---|---|---|
-| [KiCad](https://www.kicad.org) | 🛠️ Professional-grade schematic & PCB layout. | — | Altium Designer | Lacks complex length matching and native back-drilled via support. |
-| [LibrePCB](https://librepcb.org) | 🌿 Modern suite with excellent library management. | — | Autodesk Eagle | Lacks hierarchical sheets and mature vendor library ecosystem. |
-| [eSim](https://github.com/FOSSEE/eSim) | 🎓 Full-stack circuit design, simulation, and PCB. | — | Altium Designer | Wrapper-based; lacks unified environment for rigid-flex designs. |
+| [KiCad](https://www.kicad.org) | 🛠️ Professional-grade schematic & PCB layout. | 1992 | Altium Designer | Lacks complex length matching and native back-drilled via support. |
+| [LibrePCB](https://librepcb.org) | 🌿 Modern suite with excellent library management. | 2013 | Autodesk Eagle | Lacks hierarchical sheets and mature vendor library ecosystem. |
+| [eSim](https://github.com/FOSSEE/eSim) | 🎓 Full-stack circuit design, simulation, and PCB. | 2015 | Altium Designer | Wrapper-based; lacks unified environment for rigid-flex designs. |
 | [Horizon EDA](https://github.com/horizon-eda/horizon) | ⚡ Feature-rich EDA package with SQLite-backed part database. | 2016 | Altium Designer | Smaller component library ecosystem compared to KiCad. |
 | [Fritzing](https://github.com/fritzing/fritzing-app) | 🍞 Breadboard-oriented beginner-friendly schematic & PCB tool. | 2007 | Tinkercad Circuits | Unsuitable for complex multi-layer or high-speed routing. |
 
@@ -91,9 +91,9 @@ This repository serves as a comprehensive index for **ASIC, FPGA, and PCB design
 
 | Tool | Description | Year | Commercial Alternative | Key Deficiency |
 |---|---|---|---|---|
-| [Verilator](https://github.com/verilator/verilator) | 🚀 Fastest Verilog/SystemVerilog simulator. | — | Synopsys VCS | 2-state cycle-accurate only; lacks native 4-state (X/Z) support. |
-| [Icarus Verilog](https://github.com/steveicarus/iverilog) | 💡 Lightweight Verilog simulator & synthesizer. | — | Siemens Questa | Limited SV support for OOP and complex assertions (SVA). |
-| [GHDL](https://github.com/ghdl/ghdl) | 🔗 VHDL simulator with excellent IEEE support. | — | Siemens Questa | VHDL-only; lacks multi-language (SV/SystemC) integration. |
+| [Verilator](https://github.com/verilator/verilator) | 🚀 Fastest Verilog/SystemVerilog simulator. | 1998 | Synopsys VCS | 2-state cycle-accurate only; lacks native 4-state (X/Z) support. |
+| [Icarus Verilog](https://github.com/steveicarus/iverilog) | 💡 Lightweight Verilog simulator & synthesizer. | 1998 | Siemens Questa | Limited SV support for OOP and complex assertions (SVA). |
+| [GHDL](https://github.com/ghdl/ghdl) | 🔗 VHDL simulator with excellent IEEE support. | 2002 | Siemens Questa | VHDL-only; lacks multi-language (SV/SystemC) integration. |
 | [sv2v](https://github.com/zachjs/sv2v) | 🔄 SystemVerilog to Verilog translator. | 2019 | — | Niche utility; limited by downstream tool features. |
 | [Cocotb](https://github.com/cocotb/cocotb) | 🐍 Coroutine-based cosimulation testbench framework in Python. | 2013 | UVM / SystemVerilog | Simulation throughput constrained by Python-HDL IPC overhead. |
 | [NVC](https://github.com/nickg/nvc) | ⚡ High-performance VHDL simulator utilizing LLVM code generation. | 2011 | Siemens Questa | Limited mixed-language simulation and SystemVerilog interoperability. |
@@ -106,7 +106,7 @@ This repository serves as a comprehensive index for **ASIC, FPGA, and PCB design
 |---|---|---|---|---|
 | [Yosys](https://github.com/YosysHQ/yosys) | 🔧 Extensible Verilog RTL synthesis suite. | 2012 | Synopsys DC | Lacks topographical awareness and advanced power-aware synthesis. |
 | [Berkeley-ABC](https://github.com/berkeley-abc/abc) | 📐 Logic synthesis and verification system. | 2005 | Synopsys DC | Primarily a logic optimizer; lacks industrial timing-driven mapping. |
-| [nextpnr](https://github.com/YosysHQ/nextpnr) | 🗺️ FPGA place-and-route (Lattice, ECP5, etc.). | — | Xilinx Vivado | Lacks deep device optimizations for high-utilization designs. |
+| [nextpnr](https://github.com/YosysHQ/nextpnr) | 🗺️ FPGA place-and-route (Lattice, ECP5, etc.). | 2018 | Xilinx Vivado | Lacks deep device optimizations for high-utilization designs. |
 | [VTR](https://github.com/verilog-to-routing/vtr-verilog-to-routing) | 🏫 Academic FPGA CAD flow. | 2012 | — | Performance often trails vendor-specific tools. |
 | [Holoso](https://github.com/Zubax/holoso) | 🐍 Compiles numerical Python kernels to synthesizable Verilog (HLS). | 2026 | MathWorks HDL Coder, AMD Vitis | Early stage; II>>1. |
 | [CIRCT](https://github.com/llvm/circt) | 🏗️ LLVM MLIR-based next-generation circuit compiler & IR infrastructure. | 2020 | Synopsys DC | Rapidly evolving dialect specifications with a steep learning curve. |
@@ -118,8 +118,8 @@ This repository serves as a comprehensive index for **ASIC, FPGA, and PCB design
 
 | Tool | Description | Year | Commercial Alternative | Key Deficiency |
 |---|---|---|---|---|
-| [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) | 🤖 Autonomous RTL-to-GDSII flow. | — | Cadence Innovus | ~2.1x area penalty; lacks manual congestion "knobs". |
-| [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) | 🏗️ Automated ASIC flow (real tape-outs). | — | Cadence Innovus | Rigid; difficult to customize for non-standard cells. |
+| [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) | 🤖 Autonomous RTL-to-GDSII flow. | 2018 | Cadence Innovus | ~2.1x area penalty; lacks manual congestion "knobs". |
+| [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) | 🏗️ Automated ASIC flow (real tape-outs). | 2020 | Cadence Innovus | Rigid; difficult to customize for non-standard cells. |
 | [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA) | ⏱️ Static timing analysis engine. | 2018 | Synopsys PrimeTime | Lacks Signal Integrity (SI) and variation-aware modeling. |
 | [SiliconCompiler](https://github.com/siliconcompiler/siliconcompiler) | ⚙️ Modular, automated hardware build tool & compiler framework. | 2021 | Cadence Flow Manager | Wrapper orchestrator; inherits underlying toolchain limits. |
 | [Coriolis](https://coriolis.lip6.fr/) | 🔬 Real-time symbolic & physical ASIC place-and-route suite. | 2000 | Cadence Innovus | Complex toolchain setup and steep learning curve. |
@@ -130,8 +130,8 @@ This repository serves as a comprehensive index for **ASIC, FPGA, and PCB design
 
 | Tool | Description | Year | Commercial Alternative | Key Deficiency |
 |---|---|---|---|---|
-| [Magic VLSI](https://github.com/libresilicon/magic-8.22017) | 🏛️ Venerable interactive layout editor. | 2017 | Cadence Virtuoso | Lacks Schematic Driven Layout (SDL) and FinFET extraction. |
-| [KLayout](https://github.com/KLayout/klayout) | 🔭 Powerful GDS/OASIS viewer and editor. | 2017 | Cadence Virtuoso | Lacks integrated PDK management and real-time SDL probing. |
+| [Magic VLSI](https://github.com/libresilicon/magic-8.22017) | 🏛️ Venerable interactive layout editor. | 1983 | Cadence Virtuoso | Lacks Schematic Driven Layout (SDL) and FinFET extraction. |
+| [KLayout](https://github.com/KLayout/klayout) | 🔭 Powerful GDS/OASIS viewer and editor. | 2006 | Cadence Virtuoso | Lacks integrated PDK management and real-time SDL probing. |
 | [Glayout](https://github.com/ALIGN-analoglayout/glayout) | 🎨 Generative layout framework for automated analog/mixed-signal layout. | 2023 | Virtuoso Layout XL | Limited PDK support outside SkyWater and GF180. |
 | [GDS3D](https://github.com/tritondownload/GDS3D) | 🧊 3D hardware-accelerated GDSII layout viewer. | 2013 | Calibre RVE | Viewer-only; no DRC or interactive layout editing features. |
 
@@ -142,7 +142,7 @@ This repository serves as a comprehensive index for **ASIC, FPGA, and PCB design
 | Tool | Description | Year | Commercial Alternative | Key Deficiency |
 |---|---|---|---|---|
 | [ngspice](https://github.com/imr/ngspice) | 📈 SPICE circuit simulator (industry-grade). | 1999 | Cadence Spectre | Lacks native Verilog-A support and certified model implementations. |
-| [Xschem](https://github.com/stefanschippers/xschem) | 📝 Schematic capture for analog/mixed-signal. | — | Cadence Virtuoso | Lacks unified Library Manager and design management infrastructure. |
+| [Xschem](https://github.com/stefanschippers/xschem) | 📝 Schematic capture for analog/mixed-signal. | 2004 | Cadence Virtuoso | Lacks unified Library Manager and design management infrastructure. |
 | [ALIGN](https://github.com/ALIGN-analoglayout/ALIGN-public) | 🤖 Automated analog layout synthesis. | 2018 | Virtuoso Layout XL | Cannot yet replicate manual "expert tricks" of human designers. |
 | [Qucs-S](https://github.com/ra3xdh/qucs_s) | 📊 Universal GUI for circuit simulation supporting ngspice and Xyce. | 2014 | Keysight ADS | Relies on external backends for actual SPICE solving. |
 | [Xyce](https://xyce.sandia.gov) | ⚡ Massively parallel, SPICE-compatible analog simulator from Sandia Labs. | 2002 | Cadence Spectre | Requires complex MPI multi-node configuration for clusters. |
@@ -167,9 +167,9 @@ This repository serves as a comprehensive index for **ASIC, FPGA, and PCB design
 
 | Tool | Description | Year |
 |---|---|---|
-| [SkyWater 130nm PDK](https://github.com/google/skywater-pdk) | 🛠️ Free manufacturable PDK. | — |
-| [Open_PDKs](https://github.com/RTimothyEdwards/open_pdks) | ⚙️ Open PDK setup tools. | — |
-| [Netgen](https://github.com/RTimothyEdwards/netgen) | 🧬 LVS (Layout vs Schematic). | — |
+| [SkyWater 130nm PDK](https://github.com/google/skywater-pdk) | 🛠️ Free manufacturable PDK. | 2020 |
+| [Open_PDKs](https://github.com/RTimothyEdwards/open_pdks) | ⚙️ Open PDK setup tools. | 2020 |
+| [Netgen](https://github.com/RTimothyEdwards/netgen) | 🧬 LVS (Layout vs Schematic). | 1997 |
 | [GF180MCU PDK](https://github.com/google/gf180mcu-pdk) | 🏭 GlobalFoundries 180nm open-source PDK. | 2022 |
 | [IHP Open PDK](https://github.com/IHP-GmbH/IHP-Open-PDK) | 📡 130nm BiCMOS open-source PDK for high-frequency RF. | 2023 |
 | [Spintop](https://github.com/the-spintop/spintop) | 🧪 Test-automation and measurement framework for hardware. | 2020 |
