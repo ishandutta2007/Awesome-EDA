@@ -103,6 +103,7 @@ This repository serves as a comprehensive index for **ASIC, FPGA, and PCB design
 | [Berkeley-ABC](https://github.com/berkeley-abc/abc) | 📐 Logic synthesis and verification system. | 2005 | Synopsys DC | Primarily a logic optimizer; lacks industrial timing-driven mapping. |
 | [nextpnr](https://github.com/YosysHQ/nextpnr) | 🗺️ FPGA place-and-route (Lattice, ECP5, etc.). | — | Xilinx Vivado | Lacks deep device optimizations for high-utilization designs. |
 | [VTR](https://github.com/verilog-to-routing/vtr-verilog-to-routing) | 🏫 Academic FPGA CAD flow. | 2012 | — | Performance often trails vendor-specific tools. |
+| [Holoso](https://github.com/Zubax/holoso) | 🐍 Compiles numerical Python kernels to synthesizable Verilog (HLS). | 2026 | MathWorks HDL Coder, AMD Vitis | Early stage; II>>1. |
 
 ---
 
