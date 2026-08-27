@@ -42,6 +42,7 @@ This repository serves as a comprehensive index for **ASIC, FPGA, and PCB design
   - [⚡ Analog & Mixed-Signal Tools](#analog--mixed-signal-tools)
 - [☁️ SaaS & Hosted Platforms](#saas--hosted-platforms)
 - [🧰 Tools & Utilities](#tools--utilities)
+- [🧪 Experimental & Research](#experimental--research)
 - [🤝 Community & Learning Resources](#community--learning-resources)
 - [📝 Contributing](#contributing)
 - [⚖️ License](#license)
@@ -160,7 +161,7 @@ This repository serves as a comprehensive index for **ASIC, FPGA, and PCB design
 ## 🧪 Experimental & Research
 
 | Tool | Primary Area | Description |
-|---|---|---|---|
+|---|---|---|
 | [PyMTL](https://github.com/cornell-brg/pymtl) | 🐍 Hardware Modeling | Python-based hardware modeling framework. |
 | [OpenPiton](https://github.com/PrincetonUniversity/openpiton) | 🏰 Research SoC | Manycore open research processor platform. |
 | [PRGA](https://github.com/PrincetonUniversity/prga) | 💎 FPGA Workflow | Research FPGA architecture exploration workflow. |
